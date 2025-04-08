@@ -1,0 +1,251 @@
+/* Custom color overrides */
+:root {
+  --primary-color: #e83e8c;
+  --background-color: #000000;
+  --text-color: #ffffff;
+}
+
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover {
+  background-color: #d83177 !important;
+  border-color: #d83177 !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.progress-bar {
+  background-color: var(--primary-color) !important;
+}
+
+.ftco-navbar-light {
+  background: var(--background-color) !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  color: var(--text-color) !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+  color: var(--primary-color) !important;
+}
+
+.navbar-brand {
+  color: var(--text-color) !important;
+}
+
+.ftco-navbar-light .navbar-brand:hover {
+  color: var(--primary-color) !important;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span, 
+.owl-carousel .owl-dots .owl-dot:hover span {
+  background: var(--primary-color) !important;
+}
+
+#ftco-loader .path {
+  stroke: var(--primary-color) !important;
+}
+
+.heading-section h2:after {
+  background: var(--primary-color) !important;
+}
+
+.ftco-section .color-1 {
+  background: var(--primary-color) !important;
+}
+
+a:hover {
+  color: var(--primary-color) !important;
+}
+
+/* Additional color overrides for text */
+.subheading {
+  color: var(--primary-color) !important;
+}
+
+.ftco-navbar-light.scrolled .nav-link {
+  color: var(--text-color) !important;
+}
+
+.ftco-navbar-light.scrolled .nav-link.active {
+  color: var(--primary-color) !important;
+}
+
+.heading-section .subheading {
+  color: var(--primary-color) !important;
+}
+
+.icon-heart {
+  color: var(--primary-color) !important;
+}
+
+.services .icon {
+  background: var(--primary-color) !important;
+}
+
+.services:hover .icon {
+  background: #fff !important;
+  color: var(--primary-color) !important;
+}
+
+.ftco-section .color-1,
+.ftco-section .color-2,
+.ftco-section .color-3,
+.ftco-section .color-4 {
+  background: var(--primary-color) !important;
+}
+
+/* Menu bar and title overrides */
+.ftco-navbar-light .nav-link {
+  color: var(--text-color) !important;
+}
+
+/* Add underline color override */
+.ftco-navbar-light .nav-link:before {
+  background: var(--primary-color) !important;
+}
+
+.text h1 span {
+  color: var(--primary-color) !important;
+}
+
+.text h1 {
+  color: var(--text-color) !important;
+}
+
+/* Force all orange elements to pink */
+[style*="color: #fd7e14"],
+[style*="color: #ff6b00"],
+[style*="color: #ffa500"],
+[style*="color: #ffbd39"],
+[style*="color: orange"] {
+  color: var(--primary-color) !important;
+}
+
+/* Profile image styling */
+.profile-image-container {
+  position: relative !important;
+  width: 400px !important;
+  height: 400px !important;
+  margin-left: auto !important;
+}
+
+.profile-image {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50% !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  position: relative !important;
+  z-index: 2 !important;
+  border: 8px solid rgba(232, 62, 140, 0.1) !important;
+}
+
+.profile-circle {
+  position: absolute !important;
+  top: -20px !important;
+  right: -20px !important;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50% !important;
+  border: 2px solid var(--primary-color) !important;
+  z-index: 1 !important;
+}
+
+/* Home section styling */
+#home-section {
+  padding: 7em 0 !important;
+  min-height: 700px !important;
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+#home-section .text {
+  padding-right: 30px !important;
+}
+
+#home-section h1 {
+  font-size: 3.5em !important;
+  font-weight: 700 !important;
+  margin-bottom: 1rem !important;
+  color: var(--text-color) !important;
+}
+
+#home-section h1 span {
+  color: var(--primary-color) !important;
+}
+
+#home-section h2 {
+  font-size: 1.8em !important;
+  font-weight: 500 !important;
+  color: var(--text-color) !important;
+}
+
+#home-section .subheading {
+  font-size: 1.2em !important;
+  color: var(--primary-color) !important;
+  font-weight: 500 !important;
+  margin-bottom: 1rem !important;
+}
+
+.slider-item .img {
+  height: 600px !important;
+  width: 45% !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  border-radius: 10px !important;
+  margin-right: 15px !important;
+}
+
+.slider-item .overlay {
+  opacity: 0.1 !important;
+}
+
+.slider-item .one-forth {
+  width: 50% !important;
+  padding-left: 30px !important;
+}
+
+/* Dark theme for other sections */
+body {
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+.ftco-section {
+  background: var(--background-color) !important;
+}
+
+@media (max-width: 768px) {
+  .profile-image-container {
+    width: 300px !important;
+    height: 300px !important;
+    margin: 30px auto !important;
+  }
+  
+  #home-section .text {
+    text-align: center !important;
+    padding: 0 15px !important;
+    margin-bottom: 30px !important;
+  }
+  
+  #home-section h1 {
+    font-size: 2.5em !important;
+  }
+  
+  .slider-item .one-forth {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0 15px !important;
+  }
+}
